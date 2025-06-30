@@ -1,0 +1,13 @@
+/**
+ * Custom styles
+ */
+
+.toasted {
+  display: block !important;
+  padding: 1.2rem !important;
+}
+
+.toasted .fa {
+  padding-right: 1.3rem !important;
+  font-size: 1.3rem !important;
+}

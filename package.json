@@ -1,0 +1,59 @@
+{
+  "name": "eclairia",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": "16.x",
+    "yarn": "1.x"
+  },
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.ts,.vue .",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@nuxt/image": "^0.7.1",
+    "@nuxtjs/axios": "5.12.1",
+    "@nuxtjs/composition-api": "^0.32.0",
+    "@nuxtjs/dotenv": "^1.4.1",
+    "@nuxtjs/pwa": "^3.3.5",
+    "@nuxtjs/toast": "^3.3.1",
+    "@tailwindcss/forms": "^0.5.2",
+    "cookie-universal-nuxt": "^2.2.2",
+    "core-js": "^3.19.3",
+    "email-validator": "^2.0.4",
+    "nuxt": "^2.15.8",
+    "nuxt-typed-vuex": "^0.3.1",
+    "object-to-formdata": "^4.4.2",
+    "vue": "^2.6.14",
+    "vue-server-renderer": "^2.6.14",
+    "vue-sweetalert2": "^5.0.5",
+    "vue-template-compiler": "^2.6.14",
+    "vue-typed-mixins": "^0.2.0",
+    "webpack": "^4.46.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@babel/preset-env": "^7.27.2",
+    "@nuxt/types": "^2.15.8",
+    "@nuxt/typescript-build": "^2.1.0",
+    "@nuxtjs/tailwindcss": "^5.1.3",
+    "@vue/test-utils": "^1.3.0",
+    "@vueuse/core": "^8.7.5",
+    "@vueuse/nuxt": "^8.7.5",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^30.0.2",
+    "eslint": "^9.30.0",
+    "jest": "^30.0.3",
+    "jest-environment-jsdom": "^30.0.2",
+    "jest-serializer-vue": "^3.1.0",
+    "postcss": "^8.4.4",
+    "vue-jest": "^3.0.7"
+  },
+  "resolutions": {
+    "@nuxt/kit": "3.0.0-rc.13"
+  }
+}
